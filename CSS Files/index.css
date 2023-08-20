@@ -1,142 +1,180 @@
-/* Here We Can Add Some CSS For Our Home Page ::  */
+/* This CSS File Contains Only For The Main Components In Index File ::  */
 
-*{
-    padding: 0;
-    margin: 0;
-}
-
-body{
-    background-color: #4b75fd;
-}
-
-/* Adding Some CSS For Header ::  */
-header{
-    background-color: rgb(45, 45, 247);
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-nav{
-    display: flex;
-}
-
-.logo{
-    display: flex;
-    align-items: center;
-}
-
-.logo img{
-    width: 100px;
-    padding: 19px 30px 10px 60px;
-}
-
-nav ul{
-    height: 60px;
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-}
-
-nav ul li{
-    list-style: none;
-}
-
-nav ul li a{
-    text-decoration: none;
+/* Adding Some CSS For SignUp Form ::  */
+.signUp{
+    background-image: url(https://miro.medium.com/v2/resize:fit:1400/1*ZGB0kIijH91jRk5xmLgf9A.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
     color: white;
-    padding: 15px;
-    font-size: 20px;
-}
-
-nav ul li a:hover{
-    background-color: green;
-    color: red;
-    border-radius: 15px;
-}
-
-.searchBox{
+    position: absolute;
+    left: 50%;
+    top: -50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    height: 60%;
     display: flex;
-    align-items: center;
-}
-
-.searchBox input{
-    border-radius: 5px;
-    background-color: #f0f5ff;
-    border: none;
-    width: 600px;
-    height: 35px;
-    font-size: 20px;
-    margin: 0px 5px 0px 30px;
-}
-
-.bton{
-    border-radius: 5px;
-    height: 35px;
-    width: 90px;
-    background-color: white;
-    border: none;
-    color: black;
-    cursor: pointer;
-    font-size: 20px;
-    margin: 10px 40px 10px 0px;
-}
-
-.bton:hover{
-    background-color: black;
-    color: white;
-}
-
-.navBton{
-    display: flex;
-    align-items: center;
-    list-style: none;
-}
-
-.navBton a{
-    text-decoration: none;
-    color: white;
-    padding: 10px;
-    font-size: 20px;
-    margin: 0px 10px 0px 10px;
-}
-
-.navBton a:hover{
-    background-color: green;
-    color: red;
-    border-radius: 15px;
-}
-
-
-
-/* Adding Some CSS For Main Section ::  */
-
-
-
-/* Adding Some CSS For Footer ::  */
-footer{
-    padding: 10px;
-    height: auto;
-    background-color: black;
-    color: white;
-    display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    border-radius: 500px;
+    transition: 1s;
 }
 
-footer .footText1{
+/* This Is Created For POP-UP Form ::  */
+.showSignUp{
+    top: 50%;
+}
+
+.crossBton{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 20px;
+    color: black;
+    border: none;
+    font-size: 50px;
     font-weight: bold;
-    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-footer .footText2{
-    font-size: 20px;
+.crossBton:hover{
+    color: white;
 }
 
-footer .footText3{
+.signUp h1{
+    position: absolute;
+    top: 40px;
+    left: 90px;
+    display: flex;
+    justify-content: center;
+    margin: 40px, 40px;
+    padding: 15px;
+}
+
+.fields{
+    padding: 5px;
+    margin: 5px;
+    width: 95%;
+    height: 30px;
     font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    border-color: white;
+    color: white;
+    background-color: transparent;
+}
+
+.rbton{
+    background-color: transparent;
+    border-color: white;
+    border-radius: 30px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 8px;
+    margin: 10px;
+    position: absolute;
+    bottom: 20px;
+    left: 140px;
+    width: 40%;
+    cursor: pointer;
+}
+
+.rbton:hover{
+    border-color: greenyellow;
+}
+
+
+/* Adding Some CSS For SignIn Form ::  */
+.signIn{
+    background-image: url(https://miro.medium.com/v2/resize:fit:1400/1*ZGB0kIijH91jRk5xmLgf9A.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 500px;
+    transition: 1s;
+}
+
+/* This Is Created For POP-UP Form ::  */
+.showSignIn{
+    top: 50%;
+}
+
+.crossBton{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 20px;
+    color: black;
+    border: none;
+    font-size: 50px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.crossBton:hover{
+    color: white;
+}
+
+.signIn h1{
+    position: absolute;
+    top: 40px;
+    left: 90px;
+    display: flex;
+    justify-content: center;
+    margin: 40px, 40px;
+    padding: 15px;
+}
+
+.fields2{
+    padding: 5px;
+    margin: 5px;
+    width: 95%;
+    height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    border-color: white;
+    color: white;
+    background-color: transparent;
+}
+
+.lbton{
+    background-color: transparent;
+    border-color: white;
+    border-radius: 30px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 8px;
+    margin: 10px;
+    position: absolute;
+    bottom: 20px;
+    left: 140px;
+    width: 40%;
+    cursor: pointer;
+}
+
+.lbton:hover{
+    border-color: greenyellow;
 }

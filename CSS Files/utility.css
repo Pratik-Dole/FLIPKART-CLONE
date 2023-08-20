@@ -1,62 +1,131 @@
-/* The switch - the box around the slider */
-.switch {
-    position: relative;
-    display: inline-block;
-    width: 60px;
-    height: 34px;
-  }
-  
-  /* Hide default HTML checkbox */
-  .switch input {
-    opacity: 0;
-    width: 0;
-    height: 0;
-  }
-  
-  /* The slider */
-  .slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #ccc;
-    -webkit-transition: .4s;
-    transition: .4s;
-  }
-  
-  .slider:before {
-    position: absolute;
-    content: "";
-    height: 26px;
-    width: 26px;
-    left: 4px;
-    bottom: 4px;
-    background-color: white;
-    -webkit-transition: .4s;
-    transition: .4s;
-  }
-  
-  input:checked + .slider {
-    background-color: #2196F3;
-  }
-  
-  input:focus + .slider {
-    box-shadow: 0 0 1px #2196F3;
-  }
-  
-  input:checked + .slider:before {
-    -webkit-transform: translateX(26px);
-    -ms-transform: translateX(26px);
-    transform: translateX(26px);
-  }
-  
-  /* Rounded sliders */
-  .slider.round {
-    border-radius: 34px;
-  }
-  
-  .slider.round:before {
-    border-radius: 50%;
-  }
+/* This Is The Utility CSS File For All Templates ::  */
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-color: #ced1dc;
+}
+
+
+/* Adding Some CSS For Navigation Bar ::  */
+header{
+  background-color: rgb(45, 45, 247);
+  width: 100%;
+  overflow: hidden;
+}
+
+nav{
+  display: flex;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+.logo img{
+  width: 100px;
+  padding: 19px 30px 10px 60px;
+}
+
+nav ul{
+  height: 60px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+nav ul li{
+  list-style: none;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+  font-size: 20px;
+}
+
+nav ul li a:hover{
+  font-weight: bold;
+}
+
+.searchBox{
+  display: flex;
+  align-items: center;
+}
+
+.searchBox input{
+  border-radius: 5px;
+  background-color: #f0f5ff;
+  border: none;
+  width: 600px;
+  height: 35px;
+  font-size: 20px;
+  margin: 0px 5px 0px 30px;
+}
+
+.bton{
+  border-radius: 5px;
+  height: 35px;
+  width: 90px;
+  background-color: white;
+  border: none;
+  color: black;
+  cursor: pointer;
+  font-size: 20px;
+  margin: 10px 40px 10px 0px;
+}
+
+.bton:hover{
+  background-color: black;
+  color: white;
+}
+
+.navBton{
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.navBton a{
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  margin: 0px 10px 0px 10px;
+}
+
+.navBton a:hover{
+  font-weight: bold;
+}
+
+
+/* Adding Some CSS For Footer ::  */
+footer{
+  padding: 10px;
+  height: auto;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;  
+}
+
+footer .footText1{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+footer .footText2{
+  font-size: 20px;
+}
+
+footer .footText3{
+  font-size: 20px;
+}
