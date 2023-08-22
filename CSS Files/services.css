@@ -1,0 +1,18 @@
+ .sBox{
+    background-color: black;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+ }
+
+ .sBox h1{
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 20px;
+    padding: 20px;
+ }

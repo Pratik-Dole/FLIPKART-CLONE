@@ -1,9 +1,17 @@
 /* Here We Can Adding Some CSS For The Main Sections ::  */
 
-.cartBox img{
+.cartBox{
+    transition: 2s;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
-    width: 40%;
-    height: 40%;
+    width: 900px;
+    height: 600px;
+    background-image: url(/Images/cart.jpg);
+    background-size: 920px 620px;
+    margin: 60px 10px 10px 400px;
+}
+
+.cartImg{
+    image-resolution: 900px 600px;
 }
