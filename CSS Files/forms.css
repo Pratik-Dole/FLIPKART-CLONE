@@ -6,7 +6,7 @@
     color: white;
     position: absolute;
     left: 50%; 
-    top: -50%;
+    top: 50%;
     transform: translate(-50%, -50%);
     width: 30%; 
     height: 60%;
@@ -18,7 +18,8 @@
 }
 
 .showSignUp{        /* This Is Created For POP-UP Form ::  */
-    top: 50%;
+    color: red;
+    top: -50%;
 }
 
 .crossBton{
@@ -84,6 +85,7 @@
 
 .rbton:hover{
     border: 3px solid greenyellow;
+    color: greenyellow;
 }
 
 
@@ -173,4 +175,5 @@
 
 .lbton:hover{
     border: 3px solid greenyellow;
+    color: greenyellow;
 }

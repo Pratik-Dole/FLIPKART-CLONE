@@ -1,12 +1,14 @@
  .sBox{
     background-color: black;
-    background-image: url();
+    background-image: url(/Images/serviceBG.jpg);
     background-repeat: no-repeat;
-    background-size: ;
+    background-size: 100% 500px;
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    flex-direction: column;
+    height: 380px;
+    width: 100%;
  }
 
  .sBox h1{
@@ -14,5 +16,75 @@
     font-size: 50px;
     font-weight: bolder;
     margin: 20px;
-    padding: 20px;
+    padding: 30px;
  }
+
+ .sBton1{
+   background-color: rgb(250, 48, 48);
+   color: white;
+   padding: 10px;
+   margin: 30px;
+   border-radius: 10px;
+   font-size: 20px;
+   font-weight: bold;
+   width: 200px;
+   border: none;
+   cursor: pointer;
+ }
+
+ .sBton1:hover{
+   background-color: red;
+ }
+
+ .sBton2{
+   background-color: #2d912d;
+   color: white;
+   padding: 10px;
+   margin: 30px;
+   border-radius: 10px;
+   font-size: 20px;
+   font-weight: bold;
+   width: 200px;
+   border: none;
+   cursor: pointer;
+ }
+
+ .sBton2:hover{
+   background-color: green;
+ }
+
+ .sBox2{
+   background-color: #e1c3c3;
+   color: black;
+   background-repeat: no-repeat;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   height: 365px;
+   width: 100%;
+}
+
+.sBox2 h1{
+   font-size: 50px;
+   font-weight: bold;
+   margin: 20px;
+   margin-top: -50px;
+   padding-bottom: 5px;
+}
+
+.sBox2 h4{
+   font-size: 20px;
+   margin: 3px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.fImg{
+   border: 10px solid white;
+   border-radius: 60px;
+   cursor: pointer;
+   width: 100px;
+   height: 100px;
+   margin: 40px;
+   margin-bottom: 0px;
+}
