@@ -6,7 +6,7 @@
     color: white;
     position: absolute;
     left: 50%; 
-    top: 50%;
+    top: -50%;
     transform: translate(-50%, -50%);
     width: 30%; 
     height: 60%;
@@ -135,7 +135,7 @@
 }
 
 .signIn h1{
-    position: absolute;
+    position: absolute; 
     top: 40px;
     left: 60px;
     display: flex;

@@ -50,42 +50,41 @@ nav ul li a{
   color: white;
   padding: 15px;
   font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-nav ul li a:hover{
+/* nav ul li a:hover{
   font-weight: bold;
-}
+} */
 
 .searchBox{
   display: flex;
   align-items: center;
 }
 
+.searchBox i{
+  cursor: pointer;
+  background-color: #f0f5ff;
+  width: 30px;
+  font-size: 25px;
+  border: none;
+  height: 35px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+  margin-right: 0px;
+}
+
 .searchBox input{
-  border-radius: 5px;
   background-color: #f0f5ff;
   border: none;
-  width: 600px;
+  outline: none;
+  width: 700px;
   height: 35px;
   font-size: 20px;
-  margin: 0px 5px 0px 30px;
-}
-
-.bton{
-  border-radius: 5px;
-  height: 35px;
-  width: 90px;
-  background-color: white;
-  border: none;
-  color: black;
-  cursor: pointer;
-  font-size: 20px;
-  margin: 10px 40px 10px 0px;
-}
-
-.bton:hover{
-  background-color: black;
-  color: white;
+  margin: 0px 20px 0px 0px;
 }
 
 .navBton{
@@ -100,73 +99,89 @@ nav ul li a:hover{
   color: white;
   padding: 10px;
   font-size: 20px;
-  margin: 0px 10px 0px 10px;
+  margin: 0px 5px 0px 5px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.navBton a:hover{
+/* .navBton a:hover{
   font-weight: bold;
-}
+} */
 
 
 /* Adding Some CSS For Footer ::  */
-.box{
-  background-color: #3c3b3b;
-  height: auto;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
 
-.box1{
-  color: white;
-  background-color: red;
-  padding: 10px;
-  margin: 50px;
+.fBox{
+  /* background-image: url(/Images/footerBG.jpg);
+  background-repeat: no-repeat; */
+  background-size: 100% 500px;
+  background-color: #292929;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
-}
-
-.box1 h1{
-  font-size: 30px;
-  font-weight: bold;
-  padding: 10px;
-  margin: 10px;
-}
-
-.box1 p{
-  padding: 10px;
-  margin: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-}
-
-.box2{
+  width: 100%;
   color: white;
-  background-color: red;
-  padding: 30px;
-  margin: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.fBox h1{
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.fcBox{
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: row;
+  margin: 20px;
 }
 
-.icons i{
-  padding: 10px;
+.ftBox{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin: 30px;
+  width: 300px;
+  height: auto;
+  color: white;
+}
+
+.ftBox h1{
+  cursor: pointer;
   margin: 10px;
-  font-size: 30px;
+  margin-left: 0;
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: rgb(152, 151, 151);
+  font-weight: lighter;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.ftBox a{
+  text-decoration: none;
+  color: white;
+  margin: 10px;
+  margin-left: 0;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.ftBox a:hover{
+  color: orange;
 }
 
 .footerText{
   font-size: 15px;
   height: 20px;
-  padding: 10px;
+  padding: 15px;
   background-color: black;
   color: white;
   display: flex;
+  align-items: center;
   justify-content: center;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
 }

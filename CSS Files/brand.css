@@ -1,0 +1,53 @@
+/* Here We Can Adding Some CSS For The Main Sections ::  */
+
+body{
+    background-image: url(/Images/brandBG.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    width: 1200px;
+    height: 600px;
+    margin-top: 70px;
+}
+
+.bBox h1{
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 40px;
+}
+
+.iBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;   
+}
+
+.biBox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.bIcon img{
+   border: 10px solid white;
+   border-radius: 60px;
+   cursor: pointer;
+   width: 100px;
+   height: 100px;
+   margin: 60px;
+   margin-bottom: 0px;
+}
