@@ -1,4 +1,4 @@
-// We Can Create A Logic For The Pop-Up Form :: 
+// We Can Create A Logic For The Pop-Up SignIn & SignUp Form :: 
 
 // Creating A Function For Over-Writing The CSS Property For SignUp Form :: 
 open1 = () =>{

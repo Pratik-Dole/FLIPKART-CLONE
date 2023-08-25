@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="/CSS Files/forms.css">
     <link rel="stylesheet" href="/CSS Files/index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="/Js Files/code.jquery.com_jquery-3.7.0.min.js"></script>
     <title>Flipkart-(Clone)</title>
 </head>
 <body>
@@ -28,8 +29,8 @@
             </div>
             <div class="navBton">
                 <!-- <i class="fa fa-fw fa-user"></i> -->
-                <a onclick="open1()"><i class="fa fa-fw fa-user"></i>&nbsp;New Customer ?</a>
-                <a onclick="open2()"><i class="fa fa-fw fa-user"></i>&nbsp;Sign In</a>
+                <a id="rOpen" onclick=""><i class="fa fa-fw fa-user"></i>&nbsp;New Customer ?</a>
+                <a id="lOpen" onclick=""><i class="fa fa-fw fa-user"></i>&nbsp;Sign In</a>
                 <a href="/HTML Files/brand.html">Our Brands</a>
                 <!-- <a><i class="fa fa-adjust"></i>&nbsp; Dark Mode</a> -->
             </div>
@@ -39,9 +40,9 @@
     <main>
         <!-- Creating A SignUp Form For New User  -->
         <section>
-                <div class="signUp"> 
+                <div class="signUp" id="rForm"> 
                     <form action="">
-                        <span class="crossBton" onclick="close1()">&times;</span>
+                        <span class="crossBton" id="rClose" onclick="">&times;</span>
                         <div>
                             <h1>Let Us Know Who You Are ?</h1>
                         <div>
@@ -71,9 +72,9 @@
 
         <!-- Creating A SignIn Form For Existing User  -->
         <section>
-                <div class="signIn"> 
+                <div class="signIn" id="lForm"> 
                     <form action="">
-                        <span class="crossBton" onclick="close2()">&times;</span>
+                        <span class="crossBton" id="lClose" onclick="">&times;</span>
                         <div>
                             <h1>Login To Continue</h1>
                         <div>
@@ -156,7 +157,7 @@
         </section>
     </footer>
     
-    <!-- Adding The Js Files ::  -->
-    <script src="/Js Files/index.js"></script>
 </body>
+<!-- Adding The Js Files ::  -->
+<script src="/Js Files/jQuery.js"></script>
 </html>
